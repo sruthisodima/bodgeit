@@ -38,7 +38,7 @@
 		</war>
 	</target>
 
-	test1
+	test2
 
 	<target name="deploy" depends="build">
 		<delete dir="${deploy.dir}/bodgeit"/>
