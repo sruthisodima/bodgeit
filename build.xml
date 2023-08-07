@@ -38,6 +38,8 @@
 		</war>
 	</target>
 
+	test1
+
 	<target name="deploy" depends="build">
 		<delete dir="${deploy.dir}/bodgeit"/>
 		<copy file="build/bodgeit.war" tofile="${deploy.dir}/bodgeit.war"/>
